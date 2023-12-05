@@ -8,7 +8,7 @@ Pipeline{
         }
         stage("Code-Checkout"){
             steps{
-                git branch: 'main', credentialsId: 'github', url: ''
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/codeisgoo/Complete-Production-Pipeline.git'
             }
         }
     }
